@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+          <span class="step-number">5</span>
+          <h3>Move</h3>
+          <p>Exit passivity. Perform one embodied task in the real world.</p>
+        </div>
+        <div class="step-card" id="step7">
+          <span class="step-number">7</span>
+          <h3>Reflect</h3>
+          <p>Name the shift. Turn experience into conscious pattern recognition.</p>
+        </div>
+        <div class="step-card" id="step11">
+          <span class="step-number">11</span>
+          <h3>Decide</h3>
+          <p>Choose a threshold act that alters the next sequence of your day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-grid">
+      <article id="journal" class="panel journal-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-label">Journal</p>
+            <h2>Session Record</h2>
+          </div>
+          <button id="clearJournalBtn" class="text-btn danger-btn">Clear</button>
+        </div>
+
+        <form id="journalForm" class="journal-form">
+          <label>
+            <span>Action completed</span>
+            <textarea id="actionInput" rows="3" placeholder="What did you do in the world?"></textarea>
+          </label>
+
+          <label>
+            <span>Reflection</span>
+            <textarea id="reflectionInput" rows="3" placeholder="What changed in your awareness?"></textarea>
+          </label>
+
+          <label>
+            <span>Threshold decision</span>
+            <textarea id="thresholdInput" rows="3" placeholder="What is the next decisive act?"></textarea>
+          </label>
+
+          <button type="submit" class="primary-btn">Save Entry</button>
+        </form>
+      </article>
+
+      <article class="panel log-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-label">Log</p>
+            <h2>Stored Entries</h2>
+          </div>
+        </div>
+        <div id="entriesContainer" class="entries-container">
+          <p class="empty-state">No entries yet. Begin the cycle and record one.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="panel about-panel">
+      <p class="section-label">About</p>
+      <h2>What this prototype does</h2>
+      <p>
+        This app is a starter interface for translating symbolic number structure into a usable
+        digital protocol. It does not merely display ideas; it attempts to guide a user from
+        passive consumption into embodied action, reflective interpretation, and conscious decision.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>PythagoreanAA — Guided Action Prototype</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
